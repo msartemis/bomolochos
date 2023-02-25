@@ -1,0 +1,224 @@
+html {
+	background-image: url(back.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: auto;
+}
+
+.gif {
+	max-width: 700px;
+	margin-left: 37px;
+	margin-top: 50px;
+}
+
+.art1 {
+	margin-right: 30px;
+	margin-left: 230px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	filter: grayscale(1); 
+    transition: 0s;
+	
+}	
+	
+.art2 {
+	margin-right: 30px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	filter: grayscale(1); 
+    transition: 0s;
+}
+
+.art3 {
+	margin-right: 30px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	filter: grayscale(1); 
+    transition: 0s;
+}
+
+.art1:hover {
+	filter: grayscale(0); 
+	filter: brightness(130%);
+}
+
+.art2:hover {
+	filter: grayscale(0); 
+	filter: brightness(130%);
+}
+
+.art3:hover {
+	filter: grayscale(0); 
+	filter: brightness(130%);
+}
+
+.gif:hover {
+	filter: brightness(110%); 
+}
+
+.heart1 {
+	margin-left: 100px;
+	margin-top: 250px;
+}	
+
+.heart2 {
+	margin-left: 25px;
+	margin-top: 250px;
+}	
+
+.pun1 {
+	color:black;
+	background-color: #81B54A;
+	border: 6px solid #111933;
+	padding: 10px;
+	margin-top: 100px;
+	margin-left: 290px;
+	margin-right: 290px;
+	font-size: 19px;
+}
+
+.joke2 {
+	color:#ffffff;
+	background-color: #BB8BFF;
+	border: 6px solid #FFEC5F;
+	padding: 10px;
+	margin-top: 100px;
+	margin-left: 290px;
+	margin-right: 290px;
+	font-size: 19px;
+}
+
+
+.center-pic{
+	text-align:center;
+	margin-top: 100px;
+}
+
+.center-pic:hover {
+	
+	
+}	
+
+.title {
+	color: white;
+	font-size: 70px;
+	margin-bottom: 0;
+	margin-left: 420px;
+	font-weight: 600;
+	color: #fdfdfe;
+	text-shadow: 0px 0px 5px #FFEC5F, 0px 0px 10px #FFEC5F, 0px 0px 10px #FFEC5F,
+	0px 0px 20px #b393d3;
+	font-family: 'Indie Flower', cursive;
+	font-family: 'Amatic SC', cursive;
+	font-family: 'Indie Flower', cursive;
+	font-family: 'Mynerve', cursive;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Shantell Sans', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&family=Mynerve&family=Roboto+Mono:ital,wght@1,200&family=Roboto:wght@400;700&family=Shantell+Sans:wght@300&display=swap');
+
+
+.title2 {
+	text-align: right;
+	color: #fdfdfe;
+	text-shadow: 0px 0px 5px #FFEC5F, 0px 0px 10px #FFEC5F, 0px 0px 10px #FFEC5F,
+	0px 0px 20px #b393d3;
+	
+	
+	color:#ffffff;
+	background-color: #8B8931;
+	border: 5px solid #281418;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 25px;
+	margin-right: 30px;
+	font-size: 19px;
+	border-radius:30px;
+}
+
+.title3 {
+	text-align: right;
+	margin-left: 30px;
+	color: #fdfdfe;
+	text-shadow: 0px 0px 5px #FFEC5F, 0px 0px 10px #FFEC5F, 0px 0px 10px #FFEC5F,
+	0px 0px 20px #b393d3;
+	
+	color:#ffffff;
+	background-color: #8B8931;
+	border: 5px solid #281418;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 0px;
+	font-size: 19px;
+	border-radius:30px;
+}
+
+.title2:hover {
+	/*opacity: 0.9;*/
+	border:10px solid #281418;
+}
+
+.title3:hover {
+	/*opacity: 0.9;*/
+	border:10px solid #281418;
+}
+
+
+.links {
+	display:flex;
+	margin-left: 450px;
+	margin-top: 0px;
+	font-family: 'Indie Flower', cursive;
+	font-family: 'Amatic SC', cursive;
+	font-family: 'Indie Flower', cursive;
+	font-family: 'Mynerve', cursive;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Shantell Sans', cursive;
+}
+.webhead {
+	/*display:flex;*/
+}
+
+.allgifs {
+	display:flex;
+}
+
+.puntextall {
+	font-family: 'Indie Flower', cursive;
+	font-family: 'Amatic SC', cursive;
+	font-family: 'Indie Flower', cursive;
+	font-family: 'Mynerve', cursive;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Shantell Sans', cursive;
+}
+
+.laughter1 {
+	position: fixed;
+	margin-left: 1100px;
+	margin-top: 50px;
+}
+
+.laughter2 {
+	position: fixed;
+	left: 74px;
+	top: 150px;
+	transform: scale(-1, 1)
+}
+
+/*@media (max-width: 700px) {
+	html {
+		text-align: center;
+		display: block;
+	}
+}*/
+
+/*я не смогла понять, как адаптировать сайт под размер экрана :( */
