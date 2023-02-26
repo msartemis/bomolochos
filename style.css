@@ -105,10 +105,12 @@ html {
 }	
 
 .title {
-	color: white;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
 	font-size: 70px;
-	margin-bottom: 0;
-	margin-left: 420px;
 	font-weight: 600;
 	color: #fdfdfe;
 	text-shadow: 0px 0px 5px #FFEC5F, 0px 0px 10px #FFEC5F, 0px 0px 10px #FFEC5F,
